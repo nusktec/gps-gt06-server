@@ -4,7 +4,7 @@ const Mqtt = require('mqtt');
 const net = require('net');
 const fs = require('fs');
 
-const serverPort = process.env.GT06_SERVER_PORT || 88808;
+const serverPort = process.env.GT06_SERVER_PORT || 8888;
 const rootTopic = process.env.MQTT_ROOT_TOPIC || 'gt06';
 const brokerUrl = process.env.MQTT_BROKER_URL || 'localhost';
 const brokerPort = process.env.MQTT_BROKER_PORT || 1883;

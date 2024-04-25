@@ -60,6 +60,7 @@ const server = net.createServer((client) => {
             // mqttClient.publish(rootTopic + '/' + gt06.imei +
             //     '/pos', JSON.stringify(msg));
             //console.log(gt06.imei + '/pos', JSON.stringify(msg))
+            console.log(gt06.imei)
             console.log(msg)
         });
         gt06.clearMsgBuffer();

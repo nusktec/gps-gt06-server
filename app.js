@@ -52,7 +52,7 @@ const server = net.createServer((client) => {
             console.log('err', e);
             return;
         }
-        console.log(gt06);
+        //console.log(gt06);
         if (gt06.expectsResponse) {
             client.write(gt06.responseMsg);
         }
